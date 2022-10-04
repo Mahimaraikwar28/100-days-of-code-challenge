@@ -1,1 +1,38 @@
+Problem: Implementing basic calculator using java  programming language.
+INPUT: integers ch;
+       double a,b;
+ where "a" and" b" are the two values of double type,storing some values in it for performing basic calculation operation.
+  "ch" is the integer type variable used for enter the choice of user.
+  
+ Test cases: using switch statement,
+              Let user will enter a=2 and b=3.
+                
+            CASE 1: performing Addition,
+            
+            i.e, (a + b) : 2 + 3 = 5
+            
+            CASE 2: performing substraction,
+            
+            i.e, (a - b) : 2 - 3 = -1
+            
+            CASE 3: performing multiplication,
+            
+            i.e, (a * b) : 2 * 3 = 6
+            
+            Case 4: performing modulus,
+            
+            i.e, (a % b) : 2 % 3 = 2.0
+            
+            CASE 5: performing division,
+            
+            i.e, (a / b) : 2 / 3 = 0.6666666666666666
+            
+            DEFAULT CASE: If user entered wrong choice,it will print " wrong choice"
 
+LOGIC:  Here the following problem is solving using switch statement, where first taking two input from user that is "a" and "b",
+        and now taking choice from user .
+        using switch cases first enter user's choice than access that choosed case and perform operation accordingdly.
+        
+        
+OUTPUT: 
+        
