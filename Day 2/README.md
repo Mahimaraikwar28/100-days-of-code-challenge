@@ -20,4 +20,4 @@ TES CASES:
 Now we divided the number by 10, and multiplied the reversed number by 10, when the original number is less than the reversed number, it means we've processed half of the number digits.
 
 
-Output:
+Output:https://github.com/Mahimaraikwar28/100-days-of-code-challenge/blob/46d06db98bad411374c2d67311ae48d7b458487e/Day%202/DAY2.DOCX
