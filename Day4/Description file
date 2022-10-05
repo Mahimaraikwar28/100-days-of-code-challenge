@@ -42,3 +42,5 @@ Constraints- 1<=n<=100
           --> if n positive integer is even (n%2==0) and satisfying the condition i.e,n>6 && n<=20 than it will print "Weird".
           --> if n positive integer is even (n%2==0) and satifying the condition i.e,n>20 than it will print "Not Weird".
           --> if n positive integer is odd (n%2!=0) than it will print "Weird".
+          
+   
