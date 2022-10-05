@@ -1,0 +1,44 @@
+Task:   Given an integer, n, perform the following conditional actions:
+            If n is odd, print Weird
+            If n is even and in the inclusive range of 2 to 5 , print Not Weird
+            If n is even and in the inclusive range of 6 to 20, print Weird
+            If n is even and greater than 20, print Not Weird
+ Complete the stub code provided in your editor to print whether or not n is weird.
+ 
+ Programming language: Java
+ 
+ Input: A single line containing a positive integer,n .
+
+Constraints- 1<=n<=100
+
+ Output: Print Weird if the number is weird; otherwise, print Not Weird.
+
+ Test case: Sample Case 0: n=3
+ 
+         n is odd and odd numbers are weird, so we print Weird.
+
+         Sample Case 1: n=24
+         
+         n > 20 and n is even, so it isn't weird. Thus, we print Not Weird.
+
+         Sample Case 2: n=4
+         
+         n > 2 and n is even, so it isn't weird. Thus, we print Not Weird.
+
+         Sample Case 3: n=18
+         
+          n < 20 and n is even, so it is weird. Thus, we print Weird.
+         
+         Sample Case 4: n=29
+         
+          n > 20 and n is odd,odd numbers are weird, so we print Weird.
+          
+         Sample Case 5: n=5
+           
+          n > 2 and n is odd,odd numbers are weird, so we print Weird.
+          
+    Logic: According to the sample cases, value for integer n will check for the given condition .
+          --> if n positive integer is even (n%2==0) and satisfying the condition i.e,n>2 && n<5 than it will print "Not Weird".
+          --> if n positive integer is even (n%2==0) and satisfying the condition i.e,n>6 && n<=20 than it will print "Weird".
+          --> if n positive integer is even (n%2==0) and satifying the condition i.e,n>20 than it will print "Not Weird".
+          --> if n positive integer is odd (n%2!=0) than it will print "Weird".
