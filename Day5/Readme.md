@@ -2,7 +2,7 @@
 
 ###using java.
 
-### Input Format A single integer, N .
+### Input Format: A single integer, N .
 
 ### Constraints: 2<= N <=20
 
