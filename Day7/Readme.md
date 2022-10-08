@@ -28,7 +28,7 @@
                                          //for (int i=0;i<a.length;i--).
       -->store it in another new array i.e, b[i]. // b[i]=a[i]
       -->do increament in j. //j++
-      -->print the copied elements of a[i] which is store in b[i] so print b[i].
+      -->print the copied elements of a[i] which is store in b[i] so print b[i]. 
 
 
 
