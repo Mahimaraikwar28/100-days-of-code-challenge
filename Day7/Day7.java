@@ -21,4 +21,4 @@ public class Day7 {
             System.out.println(b[i]);
         }
     }
-    }
+}
